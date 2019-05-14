@@ -2,7 +2,12 @@ body {
 	background-color: #f8f9fa
 }
 
-.navbar-brand {
+.navbar-title {
+	color: #0078a4;
+}
+
+.navbar-title:hover {
+	text-decoration: none;
 	color: #0078a4;
 }
 
@@ -11,7 +16,7 @@ li {
 	padding-bottom: 0.25rem;
 }
 
-.typeform-share.button {
+.pink-button {
 	text-decoration: none;
 	border: 5px solid #CC6E77;
 	background-color: #CC6E77;
@@ -28,6 +33,11 @@ li {
 	font-weight: bold;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+.pink-button:hover {
+	text-decoration: none;
+	color: #f8f9fa;
 }
 
 .b-dark-blue {

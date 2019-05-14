@@ -1,83 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "layouts/base.njk" %}
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Design Brief – VIRT-EU Design Challenge</title>
+{% block mainContent %}
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/styles.css">
-</head>
+<div class="row justify-content-center">
 
+	<div class="col-10 col-md-8 mt-3">
 
-<body>
-	<div class="container">
-		<div class="row sticky-top bg-light justify-content-center">
-			<div class="col-10">
-				<!--navbar-->
-				<nav class="navbar">
-					<a class="navbar-brand" href="/">
-						<img src="images/virt-eu_POS.png" class="img-fluid" alt="" width=150>
-						<span class="ml-4">VIRT-EU Design Challenge: Living with Difference in the Connected Home</span>
-					</a>
-				</nav>
-			</div>
-		</div>
+		{% include "global-components/action-box.html" %}
+		<h2 class="mt-4">The big question</h2>
+		<p>
+			Living together in all our differences, is part of our present and will shape our futures.
+		</p>
 
-
-		<div class="row mt-0 pt-5 justify-content-center">
-			<!--title-->
-			<div class="col-10 text-md-center">
-				<h1>Design Brief
-				</h1>
-				<h2>
-					Living with Difference in the Connected Home </h2>
-			</div>
-
-			<!--intro-->
-			<div class="col-10 col-md-8 mt-3">
-
-				<!--register link-->
-				<div class="row justify-content-center mt-4 mb-4">
-					<div class="col-12 b-dark-blue pb-4">
-						<h2 class="mt-4 text-center">Take part in the Design Challenge</h3>
-							<div class="text-center mt-4">
-								<a class="typeform-share button" href="https://virteu-design.typeform.com/to/ST5K9N"
-									data-mode="popup" data-hide-headers=true data-hide-footer=true
-									data-submit-close-delay="5" target="_blank">Register your interest</a>
-							</div>
-					</div>
-				</div>
-
-				<p>For years we have heard that the &lsquo;smart home&rsquo; is coming, using connected
-					devices to transform everyday life. Personal assistants, remotely-triggered thermostats, responsive
-					lighting
-					and cooking, cleaning and food preparation apps and services promise to make our individual lives
-					better by
-					personalising aspects of the environments and information around us.</p>
-
-				<p>While this personalisation happens, another important trend changes what home is and
-					who is there. Younger people live longer with their parents, or return to their homes after study.
-					People of
-					all ages experiment with collaborative living and share spaces and experiences. Families change
-					shape, and
-					some people at home need extra care to accommodate age, illness or different abilities.</p>
-
-				<p>These issues of difference and care challenge the idea that connected systems are
-					just for personal use. We share our space, our information and our devices in complex ways, even as
-					we
-					simply try to get through &lsquo;ordinary life at home&rsquo;. How might connected Internet of
-					Things (IoT)
-					systems and products enter into and change communal spaces of home?</p>
-				<h2 class="mt-4">The big question</h2>
-				<p>Living together in all our differences, is part of our present and will shape our
-					futures.</p>
-
-				<p>How might we use connected Internet of Things systems and products to re-imagine
-					collaborative and communal living that is sensitive to differences between members of these living
-					spaces?</p>
+		<p>
+			How might we use connected Internet of Things systems and products to re-imagine collaborative and communal living that is sensitive to differences between members of these living spaces?</p>
 				<h2 class="mt-4">What we are looking for</h2>
 				<ul>
 					<li>Early stage designs that use connected IoT systems and products to explore new
@@ -93,6 +29,34 @@
 					<li>Creative interventions in using connected devices to provide for life together,
 						not only as individuals</li>
 				</ul>
+				<h2>
+					How the Design Challenge Works
+				</h2>
+				<p class="mt-4">
+					You have until May___ to come up with a concept in response to the Design Challenge and present it
+					in a clear and concise manner. We will consider all of the concepts submitted within the deadline
+					and evaluate them.
+				</p>
+
+				<p>
+					On June 3rd, we will select the applicants who will proceed to the next round of concept development
+					and
+					will release a custom tool to support the last stage of concept development. The participants in
+					this
+					second round will have until June 20 to complete the second phase of concept development.
+				</p>
+
+				<p>
+					On June 24th, we will announce the finalists who will be invited to the presentation event as part
+					of <a href="https://orgcon.openrightsgroup.org/2019/">ORGCon</a>.</p>
+
+				<p><a href="https://orgcon.openrightsgroup.org/2019/">ORGCon</a> is Open Rights Group's
+					conference in London. It's being held on Saturday 13 July 2019.</p>
+				<p>The selected concepts will be the ones that best answer the Challenge question and have
+					the most potential for impact in the world, selected by our team according to the evaluation
+					criteria listed below.
+				</p>
+
 				<h2 class="mt-4">Prizes</h2>
 				<p>One winning team will win &euro;XXX and one runner-up team will win &euro;XXX. The
 					winners and runners-up will be invited to London with accommodation and travel paid for. They will
@@ -100,6 +64,7 @@
 					their concept to the ORGCon conference on Saturday 13 July, where they will also receive one hour of
 					1-to-1
 					mentoring from an IoT industry leader.</p>
+
 				<h2 class="mt-4">Design constraints</h2>
 				<ul>
 					<li>This challenge is for concepts around IoT in the home</li>
@@ -147,6 +112,7 @@
 
 				<p>To participate in this design challenge, you should prepare and submit your ideas at a stage of
 					having a clear concept but are low fidelity in terms of physicality.</p>
+
 				<h2 class="mt-4">Personae</h2>
 				<p>To provide some inspiration around the ways that you might think about living at
 					home, with difference, here are some sample personae. You don&rsquo;t have to design only for them
@@ -270,8 +236,7 @@
 				</ul>
 
 				<ul>
-					<li><a
-							href="http://superflux.in/index.php/work/uninvited-guests/%23&amp;sa=D&amp;ust=1557832663299000">http://superflux.in/index.php/work/uninvited-guests/#</a>
+					<li><a href="http://superflux.in/index.php/work/uninvited-guests/%23&amp;sa=D&amp;ust=1557832663299000">http://superflux.in/index.php/work/uninvited-guests</a>
 					</li>
 				</ul>
 				<!--register link-->
@@ -287,38 +252,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="row justify-content-around ">
-				<div class="col-10 col-md-8 mt-0 pr-5">
 
-					<!--about VIRT-EU-->
+</div>
 
-					<h3 class="text-center">About VIRT-EU</h3>
-					<div class="media">
-
-						<img src="images/euflag.png" width=100 alt="" class="img-fluid mr-4">
-
-						<div class="media-body">
-							<p>VIRT-EU is <a href="https://virteuproject.eu">a consortium of international organisations
-									and
-									universities</a> seeking to understand how the development of the Internet of Things
-								(IoT)
-								affects ethics, data protection and privacy. Partners include IT University of
-								Copenhagen,
-								Copenhagen Institute of Interaction Design, Uppsala University, Politecnico di Torino,
-								London
-								School
-								of Economics and Open Rights Group.</p>
-							<p>This project has received funding from the European Union's Horizon 2020 research and
-								innovation
-								programme under grant agreement No <a
-									href="https://cordis.europa.eu/project/rcn/205981_en.html">732027</a>.</p>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</body>
-
-</html>
+</div>
+{% endblock %}

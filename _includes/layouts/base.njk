@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "global-components/head.html" %}
+
+<body>
+
+	<div class="container">
+		{% include "global-components/navbar.html" %}
+		{% include "global-components/titles.html" %}
+
+		{% block mainContent %}
+		{% endblock %}
+
+		{% include "global-components/about-virteu.html" %}
+	</div>
+	<script id="typef_orm_share" src="https://embed.typeform.com/embed.js"></script>
+</body>
+
+</html>
