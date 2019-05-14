@@ -1,6 +1,15 @@
 {
+	"siteTitle": "VIRT-EU Design Challenge",
+	"url": "https://designchallenge.virteuproject.eu",
+	"description": "The VIRT-EU Project is holding a design challenge. Do you have a concept about living together in the connected home?",
+	"shortDescription": "VIRT-EU Design Challenge",
+	"author": {
+		"name": "VIRT-EU ",
+		"twitterUsername": "@VIRT_EU"
+	},
+	"shareImagePath": "/assets/images/social.png",
 	"emailAddress": "virteudesignchallenge@gmail.com",
 	"winningPrize": "YXXXX",
 	"runnerUpPrize": "YXXXX",
 	"firstSubmissionDate": "June 3"
-	}
+}

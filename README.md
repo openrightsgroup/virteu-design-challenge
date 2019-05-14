@@ -1,6 +1,8 @@
 # VIRT-EU Design Challenge site
 
-## Instructions
+A site for the VIRT-EU to promote a design challenge. Available at [https://designchallenge.virteuproject.eu](https://designchallenge.virteuproject.eu)
+
+## Development Instructions
 
 1. Clone this repository `git clone git@github.com:openrightsgroup/virteu-design-challenge.git`
 2. Install Node from [https://nodejs.org/en](https://nodejs.org/en)
