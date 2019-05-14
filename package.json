@@ -1,6 +1,7 @@
 {
   "name": "virteu-design-challenge",
   "description": "",
+  "license": "MIT",
   "scripts": {
     "start": "yarn run dev",
     "build": "ELEVENTY_ENV=production yarn eleventy",
