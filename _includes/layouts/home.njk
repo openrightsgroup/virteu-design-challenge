@@ -7,37 +7,18 @@
 	{# Start rowOne #}
 	<div class="row mt-0 pt-5 pb-5 justify-content-around">
 		{% include "home-sections/what-looking-for.html" %}
-		{% include "home-sections/prizes.html" %}
+		{% include "home-sections/how-the-dc-works.html" %}
 	</div>
 	{# End rowOne #}
 
+	{% include "global-components/action-box-all.html" %}
+
 	{# Start rowTwo #}
 	<div class="row mt-0 pt-5 pb-5 justify-content-around">
+		{% include "home-sections/prizes.html" %}
 		{% include "home-sections/judges.html" %}
-		{% include "home-sections/concept-requirements.html" %}
 	</div>
 	{# End rowTwo #}
-
-	{# Start rowThree #}
-	<div class="row mt-0 pt-5 pb-5 justify-content-around">
-		{% include "home-sections/timeline.html" %}
-		{% include "home-sections/how-the-dc-works.html" %}
-	</div>
-	{# End rowThree #}
-
-	{# Start rowFour #}
-	<div class="row mt-0 pt-5 pb-5 justify-content-around">
-		{% include "home-sections/design-constraints.html" %}
-		{% include "home-sections/who-can-take-part.html" %}
-	</div>
-	{# End rowFour #}
-
-	{# Start rowFive #}
-	<div class="row mt-0 pt-5 pb-5 justify-content-around">
-		{% include "home-sections/evaluation-criteria.html" %}
-		{% include "home-sections/related-material.html" %}
-	</div>
-	{# End rowFive #}
 
 
 {% endblock %}

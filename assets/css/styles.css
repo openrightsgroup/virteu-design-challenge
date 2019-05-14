@@ -29,10 +29,6 @@ li {
 	padding: 15px 33px;
 	white-space: nowrap;
 	overflow: hidden;
-	text-overflow: ellipsis;
-	font-weight: bold;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 
 .pink-button:hover {
@@ -63,6 +59,10 @@ summary::-webkit-details-marker {
 summary {
 	list-style: none;
 	outline: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 summary:after {
