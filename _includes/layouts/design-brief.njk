@@ -1,263 +1,285 @@
 {% extends "layouts/base.njk" %}
 
 {% block mainContent %}
+	{% include "global-components/action-box.html" %}
+
 
 <div class="row justify-content-center">
 
 	<div class="col-10 col-md-8 mt-3">
 
-		{% include "global-components/action-box.html" %}
-		<h2 class="mt-4">The big question</h2>
+		<h2 class="mt-2">The big question</h2>
 		<p>
 			Living together in all our differences, is part of our present and will shape our futures.
 		</p>
 
 		<p>
-			How might we use connected Internet of Things systems and products to re-imagine collaborative and communal living that is sensitive to differences between members of these living spaces?</p>
-				<h2 class="mt-4">What we are looking for</h2>
-				<ul>
-					<li>Early stage designs that use connected IoT systems and products to explore new
-						ways of living together</li>
-				</ul>
+			How might we use connected Internet of Things systems and products to re-imagine collaborative and communal
+			living that is sensitive to differences between members of these living spaces?</p>
+		<h2 class="mt-4">What we are looking for</h2>
+		<ul>
+			<li>Early stage designs that use connected IoT systems and products to explore new
+				ways of living together</li>
+		</ul>
+
+		<ul>
+			<li>Ideas about how to balance personalisation, privacy, and the experience with the
+				interests and preferences of different people who live together</li>
+		</ul>
+
+		<ul>
+			<li>Creative interventions in using connected devices to provide for life together,
+				not only as individuals</li>
+		</ul>
+		<h2>
+			How the Design Challenge Works
+		</h2>
+		<p class="mt-4">
+			You have until {{ site.firstSubmissionDate }} to come up with a concept in response to the Design Challenge and present it
+			in a clear and concise manner. We will consider all of the concepts submitted within the deadline
+			and evaluate them.
+		</p>
+
+		<p>
+			On June 3rd, we will select the applicants who will proceed to the next round of concept development
+			and
+			will release a custom tool to support the last stage of concept development. The participants in
+			this
+			second round will have until June 20 to complete the second phase of concept development.
+		</p>
+
+		<p>
+			On June 24th, we will announce the finalists who will be invited to the presentation event as part
+			of <a href="https://orgcon.openrightsgroup.org/2019/">ORGCon</a>.</p>
+
+		<p><a href="https://orgcon.openrightsgroup.org/2019/">ORGCon</a> is Open Rights Group's
+			conference in London. It's being held on Saturday 13 July 2019.</p>
+		<p>The selected concepts will be the ones that best answer the Challenge question and have
+			the most potential for impact in the world, selected by our team according to the evaluation
+			criteria listed below.
+		</p>
+
+		<h2 class="mt-4">Prizes</h2>
+		<p>One winning team will win &euro;{{ site.winningPrize}} and one runner-up team will win &euro;{{ site.runnerUpPrize}}. The
+			winners and runners-up will be invited to London with accommodation and travel paid for. They will
+			present
+			their concept to the ORGCon conference on Saturday 13 July, where they will also receive one hour of
+			1-to-1
+			mentoring from an IoT industry leader.</p>
+
+		<h2 class="mt-4">Evaluation Criteria</h2>
+		<p>During this challenge, we&rsquo;re excited to see ideas that:</p>
+
+		<ul>
+			<li>Do the ideas
+				propose new solutions to protect or improve the practices of our individual and collective
+				privacy, and
+				new ways of being at home together?</li>
+		</ul>
+
+		<ul>
+			<li>We&#39;re eager to think beyond the
+				current structure of awareness and outdated technology surrounding media delivery and
+				consumption. Do
+				ideas bring something completely new to the field or ignite existing efforts in a new way? </li>
+		</ul>
+
+		<ul>
+			<li>Starting local can be really powerful
+				&ndash; but how might ideas be transformed when deployed across a larger geographic region.
+				We&rsquo;re
+				looking for mindfulness of the different structures that might challenge and constrain scaling
+				up and
+				how ideas might adapt as they grow.</li>
+		</ul>
+
+		<ul>
+			<li>How can your idea transform
+				existing inequalities of representation and access to information, change relationships of care,
+				and
+				address differences of ability?</li>
+		</ul>
+
+		<ul>
+			<li>The interaction should be
+				iterative. Don&rsquo;t just make a system where the user takes one action, the system responds,
+				and
+				it&rsquo;s over. Make a system where the user sees the system&rsquo;s response, and takes more
+				action in
+				response, in a continued loop.</li>
+		</ul>
+
+		<h2>
+			Who can take part?
+			</h3>
+			<p class="mt-4">
+				<strong>Who can submit concepts?</strong>
+				You must be a working professional in the field of design and technology.
+			</p>
+
+			<p>
+				<strong>Can I use an idea I already came up with?</strong>
+				Yes.
+			</p>
+
+			<p>
+				<strong>Can we apply as a team?</strong>
+				Yes. If selected, you will need to nominate one team member to attend the Design Challenge.
+			</p>
+
+			<p>
+				<strong>Who will see my concept?</strong>
+				Only our reviewing team, unless you are selected to attend the final event, in which case you will
+				present your idea on stage along with the other finalists to the broader public.
+			</p>
+
+			<h2 class="mt-4">Design constraints</h2>
+			<ul>
+				<li>This challenge is for concepts around IoT in the home</li>
+			</ul>
+
+			<ul>
+				<li>The home users are families, groups or individuals who live together</li>
+			</ul>
+
+			<ul>
+				<li>The concept addresses or reflects on challenges or consequences of connected
+					life</li>
+			</ul>
+
+			<ul>
+				<li>The concept should interface with at least one conception of
+					&lsquo;difference&rsquo; as outlined above and through the personae</li>
+			</ul>
+
+			<ul>
+				<li>Take into account how your connected IoT product or system would interface with
+					at least one of these aspects of difference:</li>
 
 				<ul>
-					<li>Ideas about how to balance personalisation, privacy, and the experience with the
-						interests and preferences of different people who live together</li>
+					<li>Language</li>
+					<li>Intercultural</li>
+					<li>Intergenerational</li>
+					<li>Ability and capability</li>
+					<li>Socio-economic status</li>
 				</ul>
+			</ul>
 
-				<ul>
-					<li>Creative interventions in using connected devices to provide for life together,
-						not only as individuals</li>
+			<h2 class="mt-4">Submission material</h2>
+			<p>
+				Your concept should present:
+			</p>
+			<ol>
+				<li>
+					<strong>
+						Description </strong> (max 500 words)<br>Write a short description of your concept for an IoT
+					system or product that deals with questions around living with difference in the connected
+					home.(required)
+				</li>
+				<ul class="mt-2">
+					<li>What does it do?</li>
+					<li>How will it be used?</li>
+					<li>Who exactly is it for?</li>
+					<li>What problem does it solve?</li>
 				</ul>
-				<h2>
-					How the Design Challenge Works
-				</h2>
-				<p class="mt-4">
-					You have until May___ to come up with a concept in response to the Design Challenge and present it
-					in a clear and concise manner. We will consider all of the concepts submitted within the deadline
-					and evaluate them.
-				</p>
+				<li class="mt-2"><strong>Upload an image or diagram</strong> illustrating how your concept would be used
+					in a possible scenario. (optional)</li>
+			</ol>
 
-				<p>
-					On June 3rd, we will select the applicants who will proceed to the next round of concept development
-					and
-					will release a custom tool to support the last stage of concept development. The participants in
-					this
-					second round will have until June 20 to complete the second phase of concept development.
-				</p>
+			<h2 class="mt-4">Personae</h2>
+			<p>To provide some inspiration around the ways that you might think about living at
+				home, with difference, here are some sample personae. You don&rsquo;t have to design only for them
+				but
+				perhaps these sketches will help to provide some sparks for thinking about the ways in which the
+				idea of
+				home is changing, and how connected IoT products might play new roles in these communal spaces.
+				Unlike most
+				personae, these are of groups of people who live together in different ways, rather than
+				individuals.
+			</p>
+			<h3>Sara, Marco and Xian</h3>
+			<p>Sara, Marco and Xian all share a large house. They are all between their mid-20s and
+				mid-30s. Sara and Xian are working, Marco has gone back to university for postgraduate training.
+				They are
+				all single and dating, but their home life is important, even though they were not friends before
+				they moved
+				in. They want to share music, files and expenses, and really enjoy having collective dinners and
+				parties
+				that they all contribute to. But they also would like to keep some parts of their lives private from
+				each
+				other. They each have a different mother language and grew up with different cultural practices
+				around food,
+				space and privacy. </p>
+			<h3>The Farooqs</h3>
+			<p>Lisa and Mohammed Farooq have two small children and both work full time. Recently
+				Mohammed&rsquo;s mother Lutfun moved in with them since she is becoming elderly, and also to help
+				care for
+				the kids. She and Mohammed share a language that they are teaching to the children, but Lisa
+				doesn&rsquo;t
+				speak it. Lutfun doesn&rsquo;t see very well but is very independent and also wants to help with the
+				children. </p>
+			<h3>The Stevens</h3>
+			<p>Anabel and Todd Stevens live with their son Barney. Barney suffered an mountain
+				climbing accident over his gap year and needs some help with daily tasks due to his injuries, which
+				have
+				also prevented him from beginning university, although he would like to go. The whole family are
+				eager
+				technology users.</p>
+			<h3>Molly, Mia and Mo</h3>
+			<p>Molly lives with her lodger Mo, who is really nice but sometimes struggles to make
+				ends meet. Her daughter Mia splits her time between Molly&rsquo;s house and her dad&rsquo;s home,
+				which is
+				on the other side of town. Molly wants Mo to feel at home, but also tries to keep her family life
+				separate.
+				Mia takes her homework between Molly&rsquo;s place and her dad&rsquo;s, and both parents try to keep
+				on top
+				of helping organise activities as well as get Mia to them. </p>
 
-				<p>
-					On June 24th, we will announce the finalists who will be invited to the presentation event as part
-					of <a href="https://orgcon.openrightsgroup.org/2019/">ORGCon</a>.</p>
+			<h2 class="mt-4">Related materials</h2>
+			<ul>
+				<li>&ldquo;The increasing sophistication of the sensors embedded in technology makes it
+					possible for devices (&lsquo;things&rsquo;) to read, gauge and understand consumers at
+					unprecedented
+					levels. Sensors measure physical inputs and transform them into raw data, which is then
+					digitally
+					storable for access and analysis.&rdquo; ( <a
+						href="https://www.ey.com/Publication/vwLUAssets/ey-m-e-internet-of-things/%2524FILE/ey-m-e-internet-of-things.pdf&amp;sa=D&amp;ust=1557832663297000">Ernst
+						+ Young Report on IOT+Media</a><span>)</li>
+			</ul>
 
-				<p><a href="https://orgcon.openrightsgroup.org/2019/">ORGCon</a> is Open Rights Group's
-					conference in London. It's being held on Saturday 13 July 2019.</p>
-				<p>The selected concepts will be the ones that best answer the Challenge question and have
-					the most potential for impact in the world, selected by our team according to the evaluation
-					criteria listed below.
-				</p>
+			<ul>
+				<li>&ldquo;Technology is stepping in to help people enjoy life in their own homes for much
+					longer as well. With the latest advancements in smart home technology, you can help older family
+					members
+					to achieve a comfortable, independent, and safe life in their own homes&hellip;While there seems
+					to be
+					widespread agreement about the potential for telehealth and telecare, there are some cautionary
+					notes:
+					Almost a third believe that trying to manage technology in the home of an elderly relative will
+					create
+					more worries&rdquo; <a
+						href="https://www.independentliving.co.uk/industry-news/smart-home-technology/&amp;sa=D&amp;ust=1557832663298000">https://www.independentliving.co.uk/industry-news/smart-home-technology/</a>
+				</li>
+			</ul>
 
-				<h2 class="mt-4">Prizes</h2>
-				<p>One winning team will win &euro;XXX and one runner-up team will win &euro;XXX. The
-					winners and runners-up will be invited to London with accommodation and travel paid for. They will
-					present
-					their concept to the ORGCon conference on Saturday 13 July, where they will also receive one hour of
-					1-to-1
-					mentoring from an IoT industry leader.</p>
+			<ul>
+				<li>IoT in Health and Social Care Preserving Privacy Good Practice Brief<br><a
+						href="https://iotuk.org.uk/wp-content/uploads/2017/11/IoT-in-Health-and-Social-Care.pdf&amp;sa=D&amp;ust=1557832663299000">https://iotuk.org.uk/wp-content/uploads/2017/11/IoT-in-Health-and-Social-Care.pdf</a>
+				</li>
+			</ul>
 
-				<h2 class="mt-4">Evaluation Criteria</h2>
-				<p>During this challenge, we&rsquo;re excited to see ideas that:</p>
+			<ul>
+				<li><a
+						href="http://superflux.in/index.php/work/uninvited-guests/%23&amp;sa=D&amp;ust=1557832663299000">http://superflux.in/index.php/work/uninvited-guests</a>
+				</li>
+			</ul>
 
-				<ul>
-					<li>Do the ideas
-						propose new solutions to protect or improve the practices of our individual and collective
-						privacy, and
-						new ways of being at home together?</li>
-				</ul>
 
-				<ul>
-					<li>We&#39;re eager to think beyond the
-						current structure of awareness and outdated technology surrounding media delivery and
-						consumption. Do
-						ideas bring something completely new to the field or ignite existing efforts in a new way? </li>
-				</ul>
+	</div>
 
-				<ul>
-					<li>Starting local can be really powerful
-						&ndash; but how might ideas be transformed when deployed across a larger geographic region.
-						We&rsquo;re
-						looking for mindfulness of the different structures that might challenge and constrain scaling
-						up and
-						how ideas might adapt as they grow.</li>
-				</ul>
+</div>			{% include "global-components/action-box.html" %}
 
-				<ul>
-					<li>How can your idea transform
-						existing inequalities of representation and access to information, change relationships of care,
-						and
-						address differences of ability?</li>
-				</ul>
-
-				<ul>
-					<li>The interaction should be
-						iterative. Don&rsquo;t just make a system where the user takes one action, the system responds,
-						and
-						it&rsquo;s over. Make a system where the user sees the system&rsquo;s response, and takes more
-						action in
-						response, in a continued loop.</li>
-				</ul>
-
-				<h2 class="mt-4">Design constraints</h2>
-				<ul>
-					<li>This challenge is for concepts around IoT in the home</li>
-				</ul>
-
-				<ul>
-					<li>The home users are families, groups or individuals who live together</li>
-				</ul>
-
-				<ul>
-					<li>The concept addresses or reflects on challenges or consequences of connected
-						life</li>
-				</ul>
-
-				<ul>
-					<li>The concept should interface with at least one conception of
-						&lsquo;difference&rsquo; as outlined above and through the personae</li>
-				</ul>
-
-				<ul>
-					<li>Take into account how your connected IoT product or system would interface with
-						at least one of these aspects of difference:</li>
-
-					<ul>
-						<li>Language</li>
-						<li>Intercultural</li>
-						<li>Intergenerational</li>
-						<li>Ability and capability</li>
-						<li>Socio-economic status</li>
-					</ul>
-				</ul>
-
-				<h2 class="mt-4">Submission material</h2>
-				<p>
-					Your concept should present:
-				</p>
-				<ol>
-					<li>
-						<strong>
-							Description </strong> (max 500 words)<br>Write a short description of your concept for an IoT system or product that deals with questions around living with difference in the connected home.(required)
-					</li>
-					<ul class="mt-2">
-						<li>What does it do?</li>
-						<li>How will it be used?</li>
-						<li>Who exactly is it for?</li>
-						<li>What problem does it solve?</li>
-					</ul>
-					<li class="mt-2"><strong>Upload an image or diagram</strong> illustrating how your concept would be used in a possible scenario. (optional)</li>
-				</ol>
-
-				<h2 class="mt-4">Personae</h2>
-				<p>To provide some inspiration around the ways that you might think about living at
-					home, with difference, here are some sample personae. You don&rsquo;t have to design only for them
-					but
-					perhaps these sketches will help to provide some sparks for thinking about the ways in which the
-					idea of
-					home is changing, and how connected IoT products might play new roles in these communal spaces.
-					Unlike most
-					personae, these are of groups of people who live together in different ways, rather than
-					individuals.
-				</p>
-				<h3>Sara, Marco and Xian</h3>
-				<p>Sara, Marco and Xian all share a large house. They are all between their mid-20s and
-					mid-30s. Sara and Xian are working, Marco has gone back to university for postgraduate training.
-					They are
-					all single and dating, but their home life is important, even though they were not friends before
-					they moved
-					in. They want to share music, files and expenses, and really enjoy having collective dinners and
-					parties
-					that they all contribute to. But they also would like to keep some parts of their lives private from
-					each
-					other. They each have a different mother language and grew up with different cultural practices
-					around food,
-					space and privacy. </p>
-				<h3>The Farooqs</h3>
-				<p>Lisa and Mohammed Farooq have two small children and both work full time. Recently
-					Mohammed&rsquo;s mother Lutfun moved in with them since she is becoming elderly, and also to help
-					care for
-					the kids. She and Mohammed share a language that they are teaching to the children, but Lisa
-					doesn&rsquo;t
-					speak it. Lutfun doesn&rsquo;t see very well but is very independent and also wants to help with the
-					children. </p>
-				<h3>The Stevens</h3>
-				<p>Anabel and Todd Stevens live with their son Barney. Barney suffered an mountain
-					climbing accident over his gap year and needs some help with daily tasks due to his injuries, which
-					have
-					also prevented him from beginning university, although he would like to go. The whole family are
-					eager
-					technology users.</p>
-				<h3>Molly, Mia and Mo</h3>
-				<p>Molly lives with her lodger Mo, who is really nice but sometimes struggles to make
-					ends meet. Her daughter Mia splits her time between Molly&rsquo;s house and her dad&rsquo;s home,
-					which is
-					on the other side of town. Molly wants Mo to feel at home, but also tries to keep her family life
-					separate.
-					Mia takes her homework between Molly&rsquo;s place and her dad&rsquo;s, and both parents try to keep
-					on top
-					of helping organise activities as well as get Mia to them. </p>
-
-				<h2 class="mt-4">Related materials</h2>
-				<ul>
-					<li>&ldquo;The increasing sophistication of the sensors embedded in technology makes it
-						possible for devices (&lsquo;things&rsquo;) to read, gauge and understand consumers at
-						unprecedented
-						levels. Sensors measure physical inputs and transform them into raw data, which is then
-						digitally
-						storable for access and analysis.&rdquo; ( <a
-							href="https://www.ey.com/Publication/vwLUAssets/ey-m-e-internet-of-things/%2524FILE/ey-m-e-internet-of-things.pdf&amp;sa=D&amp;ust=1557832663297000">Ernst
-							+ Young Report on IOT+Media</a><span>)</li>
-				</ul>
-
-				<ul>
-					<li>&ldquo;Technology is stepping in to help people enjoy life in their own homes for much
-						longer as well. With the latest advancements in smart home technology, you can help older family
-						members
-						to achieve a comfortable, independent, and safe life in their own homes&hellip;While there seems
-						to be
-						widespread agreement about the potential for telehealth and telecare, there are some cautionary
-						notes:
-						Almost a third believe that trying to manage technology in the home of an elderly relative will
-						create
-						more worries&rdquo; <a
-							href="https://www.independentliving.co.uk/industry-news/smart-home-technology/&amp;sa=D&amp;ust=1557832663298000">https://www.independentliving.co.uk/industry-news/smart-home-technology/</a>
-					</li>
-				</ul>
-
-				<ul>
-					<li>IoT in Health and Social Care Preserving Privacy Good Practice Brief<br><a
-							href="https://iotuk.org.uk/wp-content/uploads/2017/11/IoT-in-Health-and-Social-Care.pdf&amp;sa=D&amp;ust=1557832663299000">https://iotuk.org.uk/wp-content/uploads/2017/11/IoT-in-Health-and-Social-Care.pdf</a>
-					</li>
-				</ul>
-
-				<ul>
-					<li><a href="http://superflux.in/index.php/work/uninvited-guests/%23&amp;sa=D&amp;ust=1557832663299000">http://superflux.in/index.php/work/uninvited-guests</a>
-					</li>
-				</ul>
-				<!--register link-->
-				<div class="row justify-content-center mt-4 mb-4">
-					<div class="col-12 b-dark-blue pb-4">
-						<h2 class="mt-4 text-center">Take part in the Design Challenge</h3>
-
-							<div class="text-center mt-4">
-								<a class="typeform-share button" href="https://virteu-design.typeform.com/to/ST5K9N"
-									data-mode="popup" data-hide-headers=true data-hide-footer=true
-									data-submit-close-delay="5" target="_blank">Register your interest</a>
-							</div>
-					</div>
-				</div>
-			</div>
 
 </div>
 
-</div>
 {% endblock %}

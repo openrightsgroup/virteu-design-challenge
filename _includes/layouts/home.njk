@@ -2,23 +2,24 @@
 
 {% block mainContent %}
 	{% include "home-sections/intro.html" %}
-	{% include "global-components/action-box-all.html" %}
+	{% include "global-components/action-box-all.njk" %}
 
 	{# Start rowOne #}
-	<div class="row mt-0 pt-5 pb-5 justify-content-around">
+	<div class="row pt-4 pb-5 justify-content-around">
 		{% include "home-sections/what-looking-for.html" %}
-		{% include "home-sections/how-the-dc-works.html" %}
+		{% include "home-sections/how-the-dc-works.njk" %}
 	</div>
 	{# End rowOne #}
 
-	{% include "global-components/action-box-all.html" %}
+	{% include "global-components/action-box-all.njk" %}
 
 	{# Start rowTwo #}
 	<div class="row mt-0 pt-5 pb-5 justify-content-around">
-		{% include "home-sections/prizes.html" %}
+		{% include "home-sections/prizes.njk" %}
 		{% include "home-sections/judges.html" %}
 	</div>
 	{# End rowTwo #}
+	{% include "global-components/email-us.njk" %}
 
 
 {% endblock %}

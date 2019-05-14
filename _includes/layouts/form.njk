@@ -1,0 +1,85 @@
+{% extends "layouts/base.njk" %}
+
+{% block mainContent %}
+<div class="row justify-content-center">
+
+	<div class="col-10 col-md-8 mt-3">
+
+		<p class="lead">Submit your concept for VIRT-EU's design challenge with this form.</p>
+
+		<p>Make sure you have read <a href="/design-brief.html">the full design brief</a> before submitting your
+			concept.</p>
+
+		<form name="designChallengeSubmissions" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="p-4 b-dark-blue">
+
+			<div class="form-group">
+				{# <p class="d-none">
+					<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+				</p> #}
+
+				<div class="input-group mt-4">
+					<div class="input-group-prepend">
+						<span class="input-group-text">Name</span>
+					</div>
+					<input type="text" class="form-control lead" aria-describedby="nameHelp" name="Name" aria-label="Name"
+						placeholder="Enter your name" required>
+				</div>
+				<small id="nameHelp" class="form-text text-muted">We'll use your name when we contact you about your concept.</small>
+
+				<div class="input-group mt-4">
+					<div class="input-group-prepend">
+						<span class="input-group-text lead">Email</span>
+					</div>
+
+					<input type="email" class="form-control" name="emailAddress" aria-describedby="emailHelp"
+						placeholder="Enter your email address" required>
+				</div>
+				<small id="emailHelp" class="form-text text-muted">We'll only use your email address to get in touch
+					with you about your concept.</small>
+			</div>
+
+			<hr>
+
+			<div class="form-group mt-4">
+
+				<label for="decriptionConcept" class="lead">Describe your concept (required)</label>
+
+				<p>Write a short description of your concept for an IoT system or product that deals with questions
+					around living with difference in the connected home.</p>
+				<ol>
+					<li>
+						What does it do?
+					</li>
+					<li>
+						How will it be used?
+					</li>
+					<li>
+						Who exactly is it for?
+					</li>
+					<li>
+						What problem does it solve?
+					</li>
+				</ol>
+
+				<textarea class="form-control" name="decriptionConcept" rows="10" required></textarea>
+			</div>
+
+			<div class="form-group mt-4">
+				<div>
+					<label for="imageDiagram" class="lead">Upload an image or diagram illustrating how your concept
+						would be used. (optional)</label>
+				</div>
+				<div class="mt-4">
+
+				<input type="file" name="imageDiagram">
+				</div>
+			</div>
+
+			<button type="submit" class="btn btn-lg pink-button">Submit</button>
+		</form>
+
+	</div>
+</div>
+
+
+{% endblock %}
