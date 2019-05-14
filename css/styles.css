@@ -1,0 +1,71 @@
+body {
+	background-color: #f8f9fa
+}
+
+.navbar-brand {
+	color: #0078a4;
+}
+
+li {
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+}
+
+.typeform-share.button {
+	text-decoration: none;
+	border: 5px solid #CC6E77;
+	background-color: #CC6E77;
+	color: #f8f9fa;
+	cursor: pointer;
+	font-size: 20px;
+	line-height: 50px;
+	margin: 0;
+	height: 50px;
+	padding: 15px 33px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.b-dark-blue {
+	border: 5px solid #0078a4;
+}
+
+.b-light-blue {
+	border: 5px solid #5fb6e9;
+}
+
+.b-light-pink {
+	border: 5px solid #d86774;
+}
+
+.b-light-green {
+	border: 5px solid #acc59b;
+}
+
+summary::-webkit-details-marker {
+	display: none
+}
+
+summary {
+	list-style: none;
+	outline: none;
+}
+
+summary:after {
+	content: "+";
+	color: rgb(33, 37, 41);
+	float: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: -5px 10px 0 0;
+	text-align: center;
+	width: 20px;
+}
+
+details[open] summary:after {
+	content: "-";
+}
