@@ -1,11 +1,8 @@
 module.exports = function (eleventyConfig) {
-	// Collections
-	// eleventyConfig.addCollection("pages", (collection) => {
-	// 	return collection.getFilteredByGlob("pages/*.md");
-	// });
+
 
 	eleventyConfig.addPassthroughCopy("assets");
-	// eleventyConfig.addPassthroughCopy("_headers");
+	eleventyConfig.addPassthroughCopy("_headers");
 
 	return {
 		passthroughFileCopy: true,
