@@ -74,8 +74,7 @@ There are some third party service providers Open Rights Group uses to further o
 
 Open Rights Group strongly values data protection and we are therefore very carefully select the third parties we work with and we ensure that they share our values around data protection. All third parties that we work with are contractually obligated to act on our instructions and in accordance with current data protection legislation. We shall never voluntarily share your information with a third party for their own use.
 
-!!!CHECK ABOUT NETLIFY - WHAT DO WE DO IF IT DOES GO OUTSIDE EU?!!!
-We do not export data for processing outside of the EU.
+For this website, we use Netlify as a data processor located outside the European Union. We have a data processing agreement that sets out their responsibilities. The arrangement is based on standard model clauses from the European Commission. You can read the text of [the agreement here](https://www.netlify.com/legal/netlify-dpa.pdf).
 
 There are some circumstances where we may have to disclose your information if ever required by law. If this is ever the case, we will tell you, when we ask you to provide information about yourself, if provision of the requested information is necessary for compliance with a legal obligation, unless we are legally compelled to conceal this.
 
