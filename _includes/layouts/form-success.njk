@@ -1,15 +1,10 @@
-{% extends "layouts/base.njk" %}
+{% extends "layouts/page.njk" %}
 
-{% block mainContent %}
-<div class="row justify-content-center">
+{% block pageContent %}
 
-	<div class="col-10 col-md-8 mt-3">
-		<h2>Thanks!</h2>
+	<h2>Thanks!</h2>
 
-		<p class="lead">Thanks for submitting your application. We'll be in touch soon.</p>
-	</div>
-
-</div>
+	<p class="lead">Thanks for submitting your application. We'll be in touch soon.</p>
 
 	{% include "global-components/email-us.njk" %}
 

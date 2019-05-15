@@ -1,0 +1,14 @@
+{% extends "layouts/base.njk" %}
+
+{% block mainContent %}
+<div class="row justify-content-center">
+	<div class="col-10 col-md-8 mt-3">
+		{% block pageContent %}
+			{{ content | safe }}
+		{% endblock %}
+	</div>
+</div>
+{% endblock %}
+
+
+
