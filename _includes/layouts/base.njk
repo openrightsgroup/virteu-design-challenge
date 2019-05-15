@@ -6,6 +6,8 @@
 
 	<div class="container">
 		{% include "global-components/navbar.html" %}
+		{% block topLinks %}
+		{% endblock %}
 		{% include "global-components/titles.html" %}
 
 		{% block mainContent %}
@@ -13,6 +15,9 @@
 
 		{% include "global-components/about-virteu.html" %}
 	</div>
+
+	{% block scripts %}
+	{% endblock %}
 </body>
 
 </html>

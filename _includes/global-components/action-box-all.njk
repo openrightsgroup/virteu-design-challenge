@@ -3,19 +3,17 @@
 		<h2 class="text-center">Join the Design Challenge</h2>
 		<div class="row justify-content-center mt-4">
 			<div class="col-11">
-				<p class="lead text-center"><strong>Read the design brief. Then submit your concept by Monday 3 June.</strong></p>
+				<p class="lead text-center"><strong>Read the design brief. Then submit your concept by {{ site.firstSubmissionDateFull }}.</strong></p>
 			</div>
 		</div>
 		<div class="row justify-content-center mt-2">
 
 			<div class="col-10 col-md-5 mx-auto d-flex justify-content-center">
-				<a class="dark-blue-button btn btn-lg" role="button" href="/design-brief.html">Read the design brief</a>
+				{% include "global-components/buttons/read-design-brief-button.html" %}
 			</div>
 
 			<div class="col-10 col-md-5 mx-auto d-flex justify-content-center mt-2 mt-md-0">
-
-					<a class="pink-button btn btn-lg" role="button"
-					href="/form.html">Submit your concept</a>
+				{% include "global-components/buttons/submit-concept-button.html" %}
 			</div>
 		</div>
 	</div>

@@ -26,12 +26,6 @@ a {
 	background-color: #CC6E77;
 	color: #f8f9fa;
 	cursor: pointer;
-	/* height: 60px; */
-	/* line-height: 30px; */
-	/* font-size: 20px;
-	line-height: 40px;
-	margin: 0;
-	padding: 15px 33px; */
 }
 
 .pink-button:hover {
@@ -45,10 +39,6 @@ a {
 	background-color: #0078a4;
 	color: #f8f9fa;
 	cursor: pointer;
-	/* height: 60px; */
-	/* font-size: 20px;
-	line-height: 40px;
-	padding: 15px 33px; */
 }
 
 .dark-blue-button:hover {
@@ -62,10 +52,6 @@ a {
 	background-color: #5fb6e9;
 	color: #f8f9fa;
 	cursor: pointer;
-	/* height: 60px; */
-	/* font-size: 20px;
-	line-height: 40px;
-	padding: 15px 33px; */
 }
 
 .light-blue-button:hover {
@@ -108,7 +94,7 @@ summary:after {
 	float: left;
 	font-size: 1.5em;
 	font-weight: bold;
-	margin: -5px 10px 0 0;
+	margin: -5px 10px 0 -25px;
 	text-align: center;
 	width: 20px;
 }
