@@ -38,6 +38,18 @@
 				</div>
 				<small id="emailHelp" class="form-text text-muted">We'll only use your email address to get in touch
 					with you about your concept.</small>
+
+				<div class="input-group mt-4">
+					<div class="input-group-prepend">
+						<span class="input-group-text lead">Country</span>
+					</div>
+					<select class="custom-select">
+						<option disabled selected>Select your country of residence</option>
+						{% include "global-components/country_dropdown.html" %}
+
+					  </select>
+				</div>
+
 			</div>
 
 			<small class="form-text text-muted"><a href="/privacy-notice.html">Read our privacy notice</a> to see how we handle the data collected by this form.</small>
