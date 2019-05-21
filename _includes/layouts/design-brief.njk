@@ -1,7 +1,7 @@
 {% extends "layouts/base.njk" %}
 
 {% block mainContent %}
-	{% include "global-components/action-box.html" %}
+	{# {% include "global-components/action-box.html" %} #}
 
 <div class="row justify-content-center">
 
@@ -33,30 +33,42 @@
 		<hr><h2>
 			How the Design Challenge Works
 		</h2>
-		<p class="mt-4">
-			You have until {{ site.firstSubmissionDate }} to come up with a concept in response to the Design Challenge and present it
-			in a clear and concise manner. We will consider all of the concepts submitted within the deadline
-			and evaluate them.
-		</p>
+		<p class="lead mt-4">
+		The Design Challenge has two rounds.
+	</p>
+<p>
+	<strong>Round 1</strong>
+</p>
+<p>
+	<em>Deadline: rolling</em>
+</p>
+<p>
+	Submit your “napkin sketch” - very early sketch and description of your idea
+</p>
 
-		<p>
-			On June 3rd, we will select the applicants who will proceed to the next round of concept development
-			and
-			will release a custom tool to support the last stage of concept development. The participants in
-			this
-			second round will have until June 20 to complete the second phase of concept development.
-		</p>
+<p>
+	<strong>Round 2</strong>
+</p>
+<p>
+	<em>Deadline: June 20</em>
+</p>
+<p>
+	Selected applicants from Round 1 are given beta tools to support their concept development and are invited to submit full materials of technical diagram, user storyboard and business plan
+</p>
 
-		<p>
-			On June 24th, we will announce the finalists who will be invited to the presentation event as part
-			of <a href="https://orgcon.openrightsgroup.org/2019/">ORGCon</a>.</p>
+<p>
+	We will consider all of the concepts submitted within the deadline and evaluate them.
+</p>
 
-		<p><a href="https://orgcon.openrightsgroup.org/2019/">ORGCon</a> is Open Rights Group's
-			conference in London. It's being held on Saturday 13 July 2019.</p>
-		<p>The selected concepts will be the ones that best answer the Challenge question and have
-			the most potential for impact in the world, selected by our team according to the evaluation
-			criteria listed below.
-		</p>
+<p>
+	On June 24th, we will announce the finalists who will be invited to the presentation event as part of ORGCon.
+</p>
+<p>
+	ORGCon is Open Rights Group's conference in London. It's being held on Saturday 13 July 2019.
+</p>
+<p>
+	The selected concepts will be the ones that best answer the Challenge question and have the most potential for impact
+</p>
 
 		<hr><h2 class="mt-4">Prizes</h2>
 		<p>One winning team will win {{ site.winningPrize}} and one runner-up team will win {{ site.runnerUpPrize}}. The
