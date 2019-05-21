@@ -40,6 +40,7 @@ If you submit a concept using [the form here](https://designchallenge.virteuproj
 
 - Name
 - Email Address
+- Your country of residence (optional)
 - The content of your submission, what you write and/or upload
 
 #### Data that Netlify automatically collects for every form
@@ -48,7 +49,7 @@ If you submit a concept using [the form here](https://designchallenge.virteuproj
 - Your browser user agent
 - The data and time you submitted the form
 
-We will use this data only for the purposes of contacting you about your concept. We will not use the data that Netlify automatically collects.
+We will use your name and email address only for the purposes of contacting you about your concept. If you provide your country of residence, we will use that data to understand the breadth of reach of the design challenge. We will not use the data that Netlify automatically collects.
 
 We will delete the data from Netlify once we have finished
 
