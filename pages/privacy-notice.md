@@ -34,7 +34,7 @@ Open Rights Group is a non-profit and a company limited by guarantee (registered
 
 This website is hosted on [Netlify](https://www.netlify.com). We use [Netlify's form handling](https://www.netlify.com/docs/form-handling) to collect concepts that are submitted to the design challenge
 
-If you submit a concept using [the form here](https://designchallenge.virteuproject.eu/form.html), the following data will be collected by Netlify and sent to a Google Sheet. It will only be made available to the VIRT-EU project. Open Rights Group is the data controller of this information.
+If you submit a concept using [the form here](https://designchallenge.virteuproject.eu/form.html), the following data will be collected by Netlify and sent to an Airtable spreadsheet. It will only be made available to the VIRT-EU project. Open Rights Group is the data controller of this information.
 
 #### Data that we ask for
 
@@ -51,7 +51,7 @@ If you submit a concept using [the form here](https://designchallenge.virteuproj
 
 We will use your name and email address only for the purposes of contacting you about your concept. We will use your country of residence to understand the breadth of reach of the design challenge. We will not use the data that Netlify automatically collects.
 
-We will delete the data from Netlify and Google once we have finished
+We will delete the data from Netlify and Airtable once we have finished
 
 <!-- We collect some analytics data about your device using the free, self hosted and open source [Matomo](https://matomo.org/) analytics software. We make a conscious choice to avoid web analytics tools such as Google Analytics where possible as part of our commitment to protecting your privacy.
 
