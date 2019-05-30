@@ -32,9 +32,9 @@ Open Rights Group is a non-profit and a company limited by guarantee (registered
 
 ### If you submit a concept using our form
 
-This website is hosted on [Netlify](https://www.netlify.com). We use [Netlify's form handling](https://www.netlify.com/docs/form-handling) to collect concepts that are submitted to the design challenge
+This website is hosted on [Netlify](https://www.netlify.com). We use [Netlify's form handling](https://www.netlify.com/docs/form-handling) to collect concepts that are submitted to the design challenge.
 
-If you submit a concept using [the form here](https://designchallenge.virteuproject.eu/form.html), the following data will be collected by Netlify and sent to an Airtable spreadsheet. It will only be made available to the VIRT-EU project. Open Rights Group is the data controller of this information.
+If you submit a concept using [the form here](https://designchallenge.virteuproject.eu/form.html), the following data will be collected by Netlify and then sent to an [Airtable](https://airtable.com) spreadsheet. It will only be made available to the VIRT-EU project. Open Rights Group is the data controller of this information.
 
 #### Data that we ask for
 
