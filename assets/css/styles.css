@@ -110,3 +110,8 @@ summary:after {
 details[open] summary:after {
 	content: "-";
 }
+
+.file-upload {
+	padding-top: .5rem;
+	padding-bottom: 2.8rem;
+}

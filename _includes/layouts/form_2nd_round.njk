@@ -1,0 +1,105 @@
+{% extends "layouts/base.njk" %}
+
+{% block mainContent %}
+<div class="row justify-content-center">
+
+	<div class="col-10 col-md-8 mt-3 p-4 b-grey">
+
+		<p class="lead">Submit your concept for VIRT-EU's design challenge with this form.</p>
+
+		<p>Make sure you have read <a href="/design-brief.html">the full design brief</a> before submitting your
+			concept.</p>
+
+		<form name="designChallengeSecondRoundSubmissions" method="POST" netlify-honeypot="bot-field" action="/form-success"
+			data-netlify="true" class="">
+
+			<div class="form-group">
+				<p class="d-none">
+					<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+				</p>
+
+				<div class="input-group mt-4">
+					<div class="input-group-prepend">
+						<span class="input-group-text">Name</span>
+					</div>
+					<input type="text" class="form-control lead" aria-describedby="nameHelp" name="Name"
+						aria-label="Name" placeholder="Enter your name (required)" required>
+				</div>
+				<small id="nameHelp" class="form-text text-muted">We'll use your name when we contact you about your
+					work.</small>
+
+				<div class="input-group mt-4">
+					<div class="input-group-prepend">
+						<span class="input-group-text lead">Email</span>
+					</div>
+
+					<input type="email" class="form-control" name="emailAddress" aria-describedby="emailHelp"
+						placeholder="Enter your email address (required)" required>
+				</div>
+				<small id="emailHelp" class="form-text text-muted">We'll only use your email address to get in touch
+					with you about your work.</small>
+
+			</div>
+			<small class="form-text text-muted"><a href="/privacy-notice.html">Read our privacy notice</a> to see how we
+				handle the data collected by this form.</small>
+
+			<hr>
+
+			<h3 class="lead">Upload the following documents as PDFs or images</h3>
+			<ul>
+				<li>
+					a full description of the idea (with no word limit)
+				</li>
+				<li>
+					a technical diagram that shows how the materials and data interact in a style <a href="assets/files/technical_diagram.pdf" target="_blank">similar to this one</a>
+				</li>
+				<li>
+					<a href="http://www.designkit.org/methods/35">a user storyboard</a> that shows a user’s journey through using the product
+				</li>
+				<li>
+					a description of how you would monetise the product to cover costs and/or make a profit
+				</li>
+			</ul>
+
+			<p class="mt-4">All items are required.</p>
+
+			<div class="form-group form-row mt-4">
+				<label for="fullDescription" class="col-sm-4 col-form-label">Full description of the idea</label>
+				<div class="col-sm-8">
+					<input type="file" name="fullDescription" id="fullDescription" class="form-control file-upload" required>
+				</div>
+			</div>
+
+			<div class="form-group form-row mt-4">
+				<label for="technicalDiagram" class="col-sm-4 col-form-label">A technical diagram</label>
+				<div class="col-sm-8">
+					<input type="file" name="technicalDiagram" id="technicalDiagram" class="form-control file-upload" required>
+				</div>
+			</div>
+
+			<div class="form-group form-row mt-4">
+				<label for="userStoryboard" class="col-sm-4 col-form-label">A user storyboard</label>
+				<div class="col-sm-8">
+					<input type="file" name="userStoryboard" id="userStoryboard" class="form-control file-upload" required>
+				</div>
+			</div>
+
+			<div class="form-group form-row mt-4">
+				<label for="monetisationDescription" class="col-sm-4 col-form-label">A description of monetisation</label>
+				<div class="col-sm-8">
+					<input type="file" name="monetisationDescription" id="monetisationDescription" class="form-control file-upload" required>
+				</div>
+			</div>
+
+
+			<button type="submit" class="btn btn-lg pink-button px-5">Submit your work</button>
+
+			<small class="form-text text-muted"><a href="/privacy-notice.html">Read our privacy notice</a> to see how we
+				handle the data collected by this form.</small>
+		</form>
+
+	</div>
+</div>
+
+
+{% endblock %}
