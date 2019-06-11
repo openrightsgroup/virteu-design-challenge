@@ -3,4 +3,4 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: same-origin
-  Content-Security-Policy: default-src 'self'; font-src 'self' https://fonts.gstatic.com; object-src 'none';
+  Content-Security-Policy: default-src 'self'; font-src 'self' https://fonts.gstatic.com; object-src 'self';
